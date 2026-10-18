@@ -139,7 +139,7 @@ def normalize(r, city, seen_at):
         "occupancy": r["occupancy"],
         "remarks": remarks,
         "address": (r.get("prop_location") or "").strip(),
-        "subdivision": r.get("subdivision"),
+        "subdivision": (r.get("subdivision") or "").strip() or None,
         "city": city["city"],
         "city_id": city["city_id"],
         "province_id": city["province_id"],
@@ -189,9 +189,9 @@ def save(listings, run, complete, failed_city_ids):
         supabase("POST", "listings?on_conflict=ropa_id", listings[i:i + 500],
                  "resolution=merge-duplicates,return=minimal")
     since = urllib.parse.quote(run["started_at"])
-    new = set()
+    new = set()  # first seen, or moved to a new batch / sale type (listed_at is reset by a DB trigger)
     for off in range(0, 10**6, 1000):  # PostgREST caps responses at 1000 rows
-        page = supabase("GET", f"listings?select=ropa_id&first_seen_at=gte.{since}&order=ropa_id&limit=1000&offset={off}")
+        page = supabase("GET", f"listings?select=ropa_id&listed_at=gte.{since}&order=ropa_id&limit=1000&offset={off}")
         new.update(r["ropa_id"] for r in page)
         if len(page) < 1000:
             break
@@ -210,10 +210,23 @@ GROUP_LABEL = {"house": "House & Lot", "townhouse": "Townhouse", "condo": "Condo
                "parking": "Parking", "other": "Property"}
 
 
-def matches(l, f):
+def bid_status(l, now):
+    """'upcoming' | 'open' | 'closed' | None. Mirror of bidStatus() in app/src/filters.ts."""
+    if not l.get("bid_start") or not l.get("bid_end"):
+        return None
+    if now < datetime.fromisoformat(l["bid_start"]):
+        return "upcoming"
+    return "open" if now <= datetime.fromisoformat(l["bid_end"]) else "closed"
+
+
+def matches(l, f, now=None):
     """Mirror of matches() in app/src/filters.ts: keep the two in sync."""
     inf = float("inf")
+    text = f"{l.get('subdivision') or ''} {l.get('address') or ''}".lower()
     return ((not f.get("cities") or l["city_id"] in f["cities"])
+            and (not f.get("disposal") or l.get("disposal_type") in f["disposal"])
+            and (not f.get("status") or bid_status(l, now or datetime.now(timezone.utc)) in f["status"])
+            and not any(k.strip() and k.strip().lower() in text for k in f.get("exclude") or [])
             and (not f.get("groups") or l["prop_group"] in f["groups"])
             and (not f.get("occupancy") or l["occupancy"] in f["occupancy"])
             and (f.get("priceMin") is None or (l["min_price"] or 0) >= f["priceMin"])
