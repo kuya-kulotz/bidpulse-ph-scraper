@@ -6,6 +6,7 @@ Env:
   MAX_MINUTES                         - stop cleanly after this (default 300)
   ONLY_CITIES                         - comma list of city-name substrings, for testing
 """
+import base64
 import json
 import os
 import random
@@ -262,6 +263,13 @@ def main():
     run = {"started_at": started.isoformat(), "cities_total": 0, "cities_ok": 0, "cities_failed": 0,
            "listings": 0, "new_listings": None, "deactivated": None, "pushes_sent": None, "status": "running", "error": None}
     listings, failed, consecutive = {}, [], 0
+    key = os.getenv("SUPABASE_SERVICE_KEY", "")
+    if os.getenv("SUPABASE_URL") and key.startswith("eyJ"):  # legacy JWT key: check its role before sweeping
+        payload = key.split(".")[1]
+        role = json.loads(base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4))).get("role")
+        if role != "service_role":
+            sys.exit(f"SUPABASE_SERVICE_KEY has role '{role}'. Use the service_role key "
+                     "(Supabase > Project Settings > API Keys), not the anon key.")
     try:
         cities = load_locations()
         only = [s.strip().upper() for s in os.getenv("ONLY_CITIES", "").split(",") if s.strip()]
