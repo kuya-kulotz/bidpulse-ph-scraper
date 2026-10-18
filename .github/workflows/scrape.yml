@@ -1,0 +1,43 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: "0 18 * * 1,3,5"  # Tue/Thu/Sat 02:00 PHT
+  workflow_dispatch:
+    inputs:
+      only_cities:
+        description: "Comma list of city-name substrings (blank = all)"
+        required: false
+
+concurrency: scrape
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python test_scrape.py && python test_match.py
+      - run: python scrape.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ vars.VAPID_SUBJECT }}
+          CONTACT: ${{ vars.CONTACT }}
+          ONLY_CITIES: ${{ inputs.only_cities }}
+      # Commit the status log every run: public health record, and keeps GitHub
+      # from disabling the schedule after 60 days without repo activity.
+      - if: always()
+        run: |
+          git config user.name "bidpulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status locations.json
+          git commit -m "scrape: $(date -u +%F) status" || exit 0
+          git push

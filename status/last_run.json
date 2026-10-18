@@ -1,0 +1,12 @@
+{
+ "started_at": "2026-10-18T16:37:57.299770+00:00",
+ "cities_total": 9,
+ "cities_ok": 9,
+ "cities_failed": 0,
+ "listings": 612,
+ "new_listings": null,
+ "deactivated": null,
+ "status": "ok",
+ "error": null,
+ "finished_at": "2026-10-18T16:43:03.386167+00:00"
+}
