@@ -305,7 +305,8 @@ def main():
 
     rows = list(listings.values())
     if os.getenv("SUPABASE_URL"):
-        save(rows, run, run["status"] == "ok", failed)
+        # A city-filtered test run is never a full sweep, so it must not deactivate other cities.
+        save(rows, run, run["status"] == "ok" and not os.getenv("ONLY_CITIES", "").strip(), failed)
     else:
         (HERE / "out").mkdir(exist_ok=True)
         (HERE / "out" / "listings.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
