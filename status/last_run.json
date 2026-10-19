@@ -1,13 +1,13 @@
 {
- "started_at": "2026-10-18T17:55:22.252790+00:00",
- "cities_total": 219,
- "cities_ok": 219,
+ "started_at": "2026-10-19T22:15:38.450175+00:00",
+ "cities_total": 236,
+ "cities_ok": 236,
  "cities_failed": 0,
- "listings": 5996,
- "new_listings": 5900,
+ "listings": 8442,
+ "new_listings": 2446,
  "deactivated": 0,
- "pushes_sent": 0,
+ "pushes_sent": 2,
  "status": "ok",
  "error": null,
- "finished_at": "2026-10-18T18:17:30.393122+00:00"
+ "finished_at": "2026-10-19T22:40:03.128334+00:00"
 }

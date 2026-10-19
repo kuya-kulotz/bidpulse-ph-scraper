@@ -10,10 +10,26 @@
  {
   "region_id": "150000000",
   "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
+  "province_id": "153800000",
+  "province": "MAGUINDANAO",
+  "city_id": "153808000",
+  "city": "SHARIFF AGUAK (MAGANOY) (CAPITAL)"
+ },
+ {
+  "region_id": "150000000",
+  "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
   "province_id": "158400000",
   "province": "SHARIFF KABUNSUAN",
   "city_id": "158408000",
   "city": "SULTAN KUDARAT (NULING)"
+ },
+ {
+  "region_id": "150000000",
+  "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
+  "province_id": "156600000",
+  "province": "SULU",
+  "city_id": "156611000",
+  "city": "PATIKUL"
  },
  {
   "region_id": "130000000",
@@ -868,6 +884,14 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "041000000",
   "province": "BATANGAS",
+  "city_id": "041020000",
+  "city": "PADRE GARCIA"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "041000000",
+  "province": "BATANGAS",
   "city_id": "041021000",
   "city": "ROSARIO"
  },
@@ -958,6 +982,14 @@
   "province": "CAVITE",
   "city_id": "042123000",
   "city": "GEN. MARIANO ALVAREZ"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "042100000",
+  "province": "CAVITE",
+  "city_id": "042110000",
+  "city": "INDANG"
  },
  {
   "region_id": "040000000",
@@ -1316,8 +1348,24 @@
   "region": "REGION 5 (BICOL REGION)",
   "province_id": "050500000",
   "province": "ALBAY",
+  "city_id": "050512000",
+  "city": "OAS"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "050500000",
+  "province": "ALBAY",
   "city_id": "050514000",
   "city": "POLANGUI"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "050500000",
+  "province": "ALBAY",
+  "city_id": "050517000",
+  "city": "TABACO CITY"
  },
  {
   "region_id": "050000000",
@@ -1334,6 +1382,14 @@
   "province": "CAMARINES NORTE",
   "city_id": "051603000",
   "city": "DAET (CAPITAL)"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "051600000",
+  "province": "CAMARINES NORTE",
+  "city_id": "051606000",
+  "city": "LABO"
  },
  {
   "region_id": "050000000",
@@ -1500,6 +1556,14 @@
   "region": "REGION 7 (CENTRAL VISAYAS)",
   "province_id": "072200000",
   "province": "CEBU",
+  "city_id": "072214000",
+  "city": "CARCAR CITY"
+ },
+ {
+  "region_id": "070000000",
+  "region": "REGION 7 (CENTRAL VISAYAS)",
+  "province_id": "072200000",
+  "province": "CEBU",
   "city_id": "072217000",
   "city": "CEBU CITY"
  },
@@ -1510,6 +1574,14 @@
   "province": "CEBU",
   "city_id": "072219000",
   "city": "CONSOLACION"
+ },
+ {
+  "region_id": "070000000",
+  "region": "REGION 7 (CENTRAL VISAYAS)",
+  "province_id": "072200000",
+  "province": "CEBU",
+  "city_id": "072223000",
+  "city": "DANAO CITY"
  },
  {
   "region_id": "070000000",
@@ -1556,6 +1628,14 @@
   "region": "REGION 7 (CENTRAL VISAYAS)",
   "province_id": "074600000",
   "province": "NEGROS ORIENTAL",
+  "city_id": "074604000",
+  "city": "BAIS CITY"
+ },
+ {
+  "region_id": "070000000",
+  "region": "REGION 7 (CENTRAL VISAYAS)",
+  "province_id": "074600000",
+  "province": "NEGROS ORIENTAL",
   "city_id": "074620000",
   "city": "SIBULAN"
  },
@@ -1566,6 +1646,14 @@
   "province": "LEYTE",
   "city_id": "083702000",
   "city": "ALANGALANG"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "083700000",
+  "province": "LEYTE",
+  "city_id": "083722000",
+  "city": "ISABEL"
  },
  {
   "region_id": "080000000",
@@ -1634,6 +1722,14 @@
  {
   "region_id": "100000000",
   "region": "REGION 10 (NORTHERN MINDANAO)",
+  "province_id": "103500000",
+  "province": "LANAO DEL NORTE",
+  "city_id": "103509000",
+  "city": "LALA"
+ },
+ {
+  "region_id": "100000000",
+  "region": "REGION 10 (NORTHERN MINDANAO)",
   "province_id": "104300000",
   "province": "MISAMIS ORIENTAL",
   "city_id": "104305000",
@@ -1676,6 +1772,14 @@
   "region": "REGION 11 (DAVAO REGION)",
   "province_id": "112300000",
   "province": "DAVAO DEL NORTE",
+  "city_id": "112318000",
+  "city": "SANTO TOMAS"
+ },
+ {
+  "region_id": "110000000",
+  "region": "REGION 11 (DAVAO REGION)",
+  "province_id": "112300000",
+  "province": "DAVAO DEL NORTE",
   "city_id": "112319000",
   "city": "TAGUM CITY"
  },
@@ -1694,6 +1798,14 @@
   "province": "DAVAO DEL SUR",
   "city_id": "112403000",
   "city": "DIGOS CITY"
+ },
+ {
+  "region_id": "110000000",
+  "region": "REGION 11 (DAVAO REGION)",
+  "province_id": "112500000",
+  "province": "DAVAO ORIENTAL",
+  "city_id": "112509000",
+  "city": "MATI CITY"
  },
  {
   "region_id": "120000000",
@@ -1716,6 +1828,14 @@
   "region": "REGION 12 (SOCCSKSARGEN)",
   "province_id": "126300000",
   "province": "SOUTH COTABATO",
+  "city_id": "126306000",
+  "city": "KORONADAL CITY"
+ },
+ {
+  "region_id": "120000000",
+  "region": "REGION 12 (SOCCSKSARGEN)",
+  "province_id": "126300000",
+  "province": "SOUTH COTABATO",
   "city_id": "126312000",
   "city": "POLOMOLOK"
  },
@@ -1732,6 +1852,14 @@
   "region": "REGION 12 (SOCCSKSARGEN)",
   "province_id": "126500000",
   "province": "SULTAN KUDARAT",
+  "city_id": "126508000",
+  "city": "LAMBAYONG (MARIANO MARCOS)"
+ },
+ {
+  "region_id": "120000000",
+  "region": "REGION 12 (SOCCSKSARGEN)",
+  "province_id": "126500000",
+  "province": "SULTAN KUDARAT",
   "city_id": "126511000",
   "city": "TACURONG CITY"
  },
@@ -1742,6 +1870,14 @@
   "province": "AGUSAN DEL NORTE",
   "city_id": "160202000",
   "city": "BUTUAN CITY"
+ },
+ {
+  "region_id": "160000000",
+  "region": "REGION 13 (CARAGA)",
+  "province_id": "160200000",
+  "province": "AGUSAN DEL NORTE",
+  "city_id": "160204000",
+  "city": "CARMEN"
  },
  {
   "region_id": "160000000",
