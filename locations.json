@@ -18,14 +18,6 @@
  {
   "region_id": "150000000",
   "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
-  "province_id": "158400000",
-  "province": "SHARIFF KABUNSUAN",
-  "city_id": "158408000",
-  "city": "SULTAN KUDARAT (NULING)"
- },
- {
-  "region_id": "150000000",
-  "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
   "province_id": "156600000",
   "province": "SULU",
   "city_id": "156611000",
@@ -70,14 +62,6 @@
   "province": "NCR, CITY OF MANILA, FIRST DISTRICT",
   "city_id": "133906000",
   "city": "SAMPALOC"
- },
- {
-  "region_id": "130000000",
-  "region": "NATIONAL CAPITAL REGION (NCR)",
-  "province_id": "133900000",
-  "province": "NCR, CITY OF MANILA, FIRST DISTRICT",
-  "city_id": "133907000",
-  "city": "SAN MIGUEL"
  },
  {
   "region_id": "130000000",
@@ -220,56 +204,8 @@
   "region": "REGION 1 (ILOCOS REGION)",
   "province_id": "015500000",
   "province": "PANGASINAN",
-  "city_id": "015503000",
-  "city": "ALAMINOS CITY"
- },
- {
-  "region_id": "010000000",
-  "region": "REGION 1 (ILOCOS REGION)",
-  "province_id": "015500000",
-  "province": "PANGASINAN",
-  "city_id": "015506000",
-  "city": "ASINGAN"
- },
- {
-  "region_id": "010000000",
-  "region": "REGION 1 (ILOCOS REGION)",
-  "province_id": "015500000",
-  "province": "PANGASINAN",
-  "city_id": "015518000",
-  "city": "DAGUPAN CITY"
- },
- {
-  "region_id": "010000000",
-  "region": "REGION 1 (ILOCOS REGION)",
-  "province_id": "015500000",
-  "province": "PANGASINAN",
-  "city_id": "015526000",
-  "city": "MANGALDAN"
- },
- {
-  "region_id": "010000000",
-  "region": "REGION 1 (ILOCOS REGION)",
-  "province_id": "015500000",
-  "province": "PANGASINAN",
-  "city_id": "015531000",
-  "city": "ROSALES"
- },
- {
-  "region_id": "010000000",
-  "region": "REGION 1 (ILOCOS REGION)",
-  "province_id": "015500000",
-  "province": "PANGASINAN",
   "city_id": "015546000",
   "city": "URDANETA CITY"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "021500000",
-  "province": "CAGAYAN",
-  "city_id": "021505000",
-  "city": "APARRI"
  },
  {
   "region_id": "020000000",
@@ -282,90 +218,10 @@
  {
   "region_id": "020000000",
   "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023102000",
-  "city": "ANGADANAN"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023106000",
-  "city": "CABAGAN"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023108000",
-  "city": "CAUAYAN CITY"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023114000",
-  "city": "ILAGAN (CAPITAL)"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023120000",
-  "city": "NAGUILIAN"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "023100000",
-  "province": "ISABELA",
-  "city_id": "023131000",
-  "city": "SAN MARIANO"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "025000000",
-  "province": "NUEVA VIZCAYA",
-  "city_id": "025002000",
-  "city": "ARITAO"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "025000000",
-  "province": "NUEVA VIZCAYA",
-  "city_id": "025003000",
-  "city": "BAGABAG"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
   "province_id": "025700000",
   "province": "QUIRINO",
   "city_id": "025702000",
   "city": "CABARROGUIS (CAPITAL)"
- },
- {
-  "region_id": "020000000",
-  "region": "REGION 2 (CAGAYAN VALLEY)",
-  "province_id": "025700000",
-  "province": "QUIRINO",
-  "city_id": "025703000",
-  "city": "DIFFUN"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "037700000",
-  "province": "AURORA",
-  "city_id": "037707000",
-  "city": "MARIA AURORA"
  },
  {
   "region_id": "030000000",
@@ -380,24 +236,8 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "030800000",
   "province": "BATAAN",
-  "city_id": "030802000",
-  "city": "BAGAC"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "030800000",
-  "province": "BATAAN",
   "city_id": "030803000",
   "city": "BALANGA CITY"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "030800000",
-  "province": "BATAAN",
-  "city_id": "030804000",
-  "city": "DINALUPIHAN"
  },
  {
   "region_id": "030000000",
@@ -434,34 +274,10 @@
  {
   "region_id": "030000000",
   "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "030800000",
-  "province": "BATAAN",
-  "city_id": "030810000",
-  "city": "ORION"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "030800000",
-  "province": "BATAAN",
-  "city_id": "030812000",
-  "city": "SAMAL"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "031400000",
   "province": "BULACAN",
   "city_id": "031404000",
   "city": "BOCAUE"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "031400000",
-  "province": "BULACAN",
-  "city_id": "031407000",
-  "city": "CALUMPIT"
  },
  {
   "region_id": "030000000",
@@ -540,14 +356,6 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "031400000",
   "province": "BULACAN",
-  "city_id": "031421000",
-  "city": "SAN MIGUEL"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "031400000",
-  "province": "BULACAN",
   "city_id": "031422000",
   "city": "SAN RAFAEL"
  },
@@ -566,54 +374,6 @@
   "province": "NUEVA ECIJA",
   "city_id": "034903000",
   "city": "CABANATUAN CITY"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034908000",
-  "city": "GAPAN CITY"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034910000",
-  "city": "GENERAL TINIO (PAPAYA)"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034911000",
-  "city": "GUIMBA"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034919000",
-  "city": "PALAYAN CITY"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034926000",
-  "city": "SAN JOSE CITY"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "034900000",
-  "province": "NUEVA ECIJA",
-  "city_id": "034927000",
-  "city": "SAN LEONARDO"
  },
  {
   "region_id": "030000000",
@@ -668,22 +428,6 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "035400000",
   "province": "PAMPANGA",
-  "city_id": "035406000",
-  "city": "FLORIDABLANCA"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "035400000",
-  "province": "PAMPANGA",
-  "city_id": "035407000",
-  "city": "GUAGUA"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "035400000",
-  "province": "PAMPANGA",
   "city_id": "035408000",
   "city": "LUBAO"
  },
@@ -722,26 +466,10 @@
  {
   "region_id": "030000000",
   "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "035400000",
-  "province": "PAMPANGA",
-  "city_id": "035418000",
-  "city": "SAN SIMON"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "036900000",
   "province": "TARLAC",
   "city_id": "036902000",
   "city": "BAMBAN"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "036900000",
-  "province": "TARLAC",
-  "city_id": "036903000",
-  "city": "CAMILING"
  },
  {
   "region_id": "030000000",
@@ -796,22 +524,6 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "037100000",
   "province": "ZAMBALES",
-  "city_id": "037105000",
-  "city": "IBA (CAPITAL)"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "037100000",
-  "province": "ZAMBALES",
-  "city_id": "037109000",
-  "city": "SAN ANTONIO"
- },
- {
-  "region_id": "030000000",
-  "region": "REGION 3 (CENTRAL LUZON)",
-  "province_id": "037100000",
-  "province": "ZAMBALES",
   "city_id": "037114000",
   "city": "SUBIC"
  },
@@ -860,30 +572,6 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "041000000",
   "province": "BATANGAS",
-  "city_id": "041011000",
-  "city": "LAUREL"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "041000000",
-  "province": "BATANGAS",
-  "city_id": "041012000",
-  "city": "LEMERY"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "041000000",
-  "province": "BATANGAS",
-  "city_id": "041019000",
-  "city": "NASUGBU"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "041000000",
-  "province": "BATANGAS",
   "city_id": "041020000",
   "city": "PADRE GARCIA"
  },
@@ -910,14 +598,6 @@
   "province": "BATANGAS",
   "city_id": "041026000",
   "city": "SAN PASCUAL"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "041000000",
-  "province": "BATANGAS",
-  "city_id": "041029000",
-  "city": "TAAL"
  },
  {
   "region_id": "040000000",
@@ -958,14 +638,6 @@
   "province": "CAVITE",
   "city_id": "042109000",
   "city": "CITY OF IMUS"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "042100000",
-  "province": "CAVITE",
-  "city_id": "042119000",
-  "city": "CITY OF TAGAYTAY"
  },
  {
   "region_id": "040000000",
@@ -1014,14 +686,6 @@
   "province": "CAVITE",
   "city_id": "042116000",
   "city": "NOVELETA"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "042100000",
-  "province": "CAVITE",
-  "city_id": "042117000",
-  "city": "ROSARIO"
  },
  {
   "region_id": "040000000",
@@ -1164,14 +828,6 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "045600000",
   "province": "QUEZON",
-  "city_id": "045645000",
-  "city": "SARIAYA"
- },
- {
-  "region_id": "040000000",
-  "region": "REGION 4-A (CALABARZON)",
-  "province_id": "045600000",
-  "province": "QUEZON",
   "city_id": "045647000",
   "city": "TAYABAS CITY"
  },
@@ -1270,30 +926,6 @@
   "province": "RIZAL",
   "city_id": "045814000",
   "city": "TERESA"
- },
- {
-  "region_id": "170000000",
-  "region": "REGION 4-B (MIMAROPA)",
-  "province_id": "175100000",
-  "province": "OCCIDENTAL MINDORO",
-  "city_id": "175106000",
-  "city": "MAMBURAO (CAPITAL)"
- },
- {
-  "region_id": "170000000",
-  "region": "REGION 4-B (MIMAROPA)",
-  "province_id": "175100000",
-  "province": "OCCIDENTAL MINDORO",
-  "city_id": "175110000",
-  "city": "SAN JOSE"
- },
- {
-  "region_id": "170000000",
-  "region": "REGION 4-B (MIMAROPA)",
-  "province_id": "175200000",
-  "province": "ORIENTAL MINDORO",
-  "city_id": "175205000",
-  "city": "CALAPAN CITY"
  },
  {
   "region_id": "170000000",
@@ -1436,14 +1068,6 @@
   "region": "REGION 5 (BICOL REGION)",
   "province_id": "056200000",
   "province": "SORSOGON",
-  "city_id": "056206000",
-  "city": "CASTILLA"
- },
- {
-  "region_id": "050000000",
-  "region": "REGION 5 (BICOL REGION)",
-  "province_id": "056200000",
-  "province": "SORSOGON",
   "city_id": "056207000",
   "city": "DONSOL"
  },
@@ -1508,6 +1132,14 @@
   "region": "REGION 6 (WESTERN VISAYAS)",
   "province_id": "063000000",
   "province": "ILOILO",
+  "city_id": "063037000",
+  "city": "POTOTAN"
+ },
+ {
+  "region_id": "060000000",
+  "region": "REGION 6 (WESTERN VISAYAS)",
+  "province_id": "063000000",
+  "province": "ILOILO",
   "city_id": "063043000",
   "city": "SANTA BARBARA"
  },
@@ -1542,6 +1174,14 @@
   "province": "NEGROS OCCIDENTAL",
   "city_id": "064528000",
   "city": "TALISAY CITY"
+ },
+ {
+  "region_id": "070000000",
+  "region": "REGION 7 (CENTRAL VISAYAS)",
+  "province_id": "072200000",
+  "province": "CEBU",
+  "city_id": "072208000",
+  "city": "BALAMBAN"
  },
  {
   "region_id": "070000000",
@@ -1644,14 +1284,6 @@
   "region": "REGION 8 (EASTERN VISAYAS)",
   "province_id": "083700000",
   "province": "LEYTE",
-  "city_id": "083702000",
-  "city": "ALANGALANG"
- },
- {
-  "region_id": "080000000",
-  "region": "REGION 8 (EASTERN VISAYAS)",
-  "province_id": "083700000",
-  "province": "LEYTE",
   "city_id": "083722000",
   "city": "ISABEL"
  },
@@ -1670,14 +1302,6 @@
   "province": "LEYTE",
   "city_id": "083747000",
   "city": "TACLOBAN CITY"
- },
- {
-  "region_id": "090000000",
-  "region": "REGION 9 (ZAMBOANGA PENINSULA)",
-  "province_id": "099700000",
-  "province": "BASILAN",
-  "city_id": "099701000",
-  "city": "ISABELA CITY"
  },
  {
   "region_id": "090000000",
@@ -1764,14 +1388,6 @@
   "region": "REGION 11 (DAVAO REGION)",
   "province_id": "112300000",
   "province": "DAVAO DEL NORTE",
-  "city_id": "112314000",
-  "city": "NEW CORELLA"
- },
- {
-  "region_id": "110000000",
-  "region": "REGION 11 (DAVAO REGION)",
-  "province_id": "112300000",
-  "province": "DAVAO DEL NORTE",
   "city_id": "112318000",
   "city": "SANTO TOMAS"
  },
@@ -1810,14 +1426,6 @@
  {
   "region_id": "120000000",
   "region": "REGION 12 (SOCCSKSARGEN)",
-  "province_id": "129800000",
-  "province": "COTABATO CITY (Not A Province)",
-  "city_id": "129804000",
-  "city": "COTABATO CITY"
- },
- {
-  "region_id": "120000000",
-  "region": "REGION 12 (SOCCSKSARGEN)",
   "province_id": "126300000",
   "province": "SOUTH COTABATO",
   "city_id": "126303000",
@@ -1838,6 +1446,14 @@
   "province": "SOUTH COTABATO",
   "city_id": "126312000",
   "city": "POLOMOLOK"
+ },
+ {
+  "region_id": "120000000",
+  "region": "REGION 12 (SOCCSKSARGEN)",
+  "province_id": "126300000",
+  "province": "SOUTH COTABATO",
+  "city_id": "126315000",
+  "city": "TANTANGAN"
  },
  {
   "region_id": "120000000",
