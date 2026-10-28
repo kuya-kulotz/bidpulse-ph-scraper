@@ -1,13 +1,13 @@
 {
- "started_at": "2026-10-26T22:34:16.151496+00:00",
- "cities_total": 156,
- "cities_ok": 0,
- "cities_failed": 3,
- "listings": 0,
- "new_listings": 0,
- "deactivated": null,
- "pushes_sent": 0,
- "status": "aborted",
- "error": "3 consecutive failures, last: <urlopen error _ssl.c:993: The handshake operation timed out>",
- "finished_at": "2026-10-26T22:40:25.641462+00:00"
+ "started_at": "2026-10-28T22:28:23.583714+00:00",
+ "cities_total": 210,
+ "cities_ok": 210,
+ "cities_failed": 0,
+ "listings": 5586,
+ "new_listings": 2668,
+ "deactivated": 2335,
+ "pushes_sent": 2,
+ "status": "ok",
+ "error": null,
+ "finished_at": "2026-10-28T22:51:05.080170+00:00"
 }
