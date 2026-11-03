@@ -44,6 +44,14 @@
   "region": "NATIONAL CAPITAL REGION (NCR)",
   "province_id": "133900000",
   "province": "NCR, CITY OF MANILA, FIRST DISTRICT",
+  "city_id": "133911000",
+  "city": "PACO"
+ },
+ {
+  "region_id": "130000000",
+  "region": "NATIONAL CAPITAL REGION (NCR)",
+  "province_id": "133900000",
+  "province": "NCR, CITY OF MANILA, FIRST DISTRICT",
   "city_id": "133903000",
   "city": "QUIAPO"
  },
@@ -738,6 +746,14 @@
  {
   "region_id": "040000000",
   "region": "REGION 4-A (CALABARZON)",
+  "province_id": "041000000",
+  "province": "BATANGAS",
+  "city_id": "041034000",
+  "city": "TUY"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
   "province_id": "042100000",
   "province": "CAVITE",
   "city_id": "042103000",
@@ -1260,6 +1276,30 @@
   "region": "REGION 6 (WESTERN VISAYAS)",
   "province_id": "064500000",
   "province": "NEGROS OCCIDENTAL",
+  "city_id": "064504000",
+  "city": "CADIZ CITY"
+ },
+ {
+  "region_id": "060000000",
+  "region": "REGION 6 (WESTERN VISAYAS)",
+  "province_id": "064500000",
+  "province": "NEGROS OCCIDENTAL",
+  "city_id": "064518000",
+  "city": "MANAPLA"
+ },
+ {
+  "region_id": "060000000",
+  "region": "REGION 6 (WESTERN VISAYAS)",
+  "province_id": "064500000",
+  "province": "NEGROS OCCIDENTAL",
+  "city_id": "064523000",
+  "city": "SAGAY CITY"
+ },
+ {
+  "region_id": "060000000",
+  "region": "REGION 6 (WESTERN VISAYAS)",
+  "province_id": "064500000",
+  "province": "NEGROS OCCIDENTAL",
   "city_id": "064526000",
   "city": "SILAY CITY"
  },
@@ -1302,6 +1342,14 @@
   "province": "CEBU",
   "city_id": "072217000",
   "city": "CEBU CITY"
+ },
+ {
+  "region_id": "070000000",
+  "region": "REGION 7 (CENTRAL VISAYAS)",
+  "province_id": "072200000",
+  "province": "CEBU",
+  "city_id": "072219000",
+  "city": "CONSOLACION"
  },
  {
   "region_id": "070000000",
@@ -1366,6 +1414,14 @@
   "province": "NEGROS ORIENTAL",
   "city_id": "074620000",
   "city": "SIBULAN"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "083700000",
+  "province": "LEYTE",
+  "city_id": "083702000",
+  "city": "ALANGALANG"
  },
  {
   "region_id": "080000000",
@@ -1526,6 +1582,14 @@
   "province": "DAVAO DEL NORTE",
   "city_id": "112314000",
   "city": "NEW CORELLA"
+ },
+ {
+  "region_id": "110000000",
+  "region": "REGION 11 (DAVAO REGION)",
+  "province_id": "112300000",
+  "province": "DAVAO DEL NORTE",
+  "city_id": "112315000",
+  "city": "PANABO CITY"
  },
  {
   "region_id": "110000000",
