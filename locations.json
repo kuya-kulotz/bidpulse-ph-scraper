@@ -18,6 +18,14 @@
  {
   "region_id": "150000000",
   "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
+  "province_id": "153800000",
+  "province": "MAGUINDANAO",
+  "city_id": "153808000",
+  "city": "SHARIFF AGUAK (MAGANOY) (CAPITAL)"
+ },
+ {
+  "region_id": "150000000",
+  "region": "AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)",
   "province_id": "158400000",
   "province": "SHARIFF KABUNSUAN",
   "city_id": "158408000",
@@ -30,6 +38,22 @@
   "province": "SULU",
   "city_id": "156611000",
   "city": "PATIKUL"
+ },
+ {
+  "region_id": "140000000",
+  "region": "CORDILLERA ADMINISTRATIVE REGION (CAR)",
+  "province_id": "141100000",
+  "province": "BENGUET",
+  "city_id": "141102000",
+  "city": "BAGUIO CITY"
+ },
+ {
+  "region_id": "140000000",
+  "region": "CORDILLERA ADMINISTRATIVE REGION (CAR)",
+  "province_id": "142700000",
+  "province": "IFUGAO",
+  "city_id": "142707000",
+  "city": "ALFONSO LISTA (POTIA)"
  },
  {
   "region_id": "130000000",
@@ -192,12 +216,196 @@
   "city": "CITY OF VALENZUELA"
  },
  {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015503000",
+  "city": "ALAMINOS CITY"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015505000",
+  "city": "ANDA"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015506000",
+  "city": "ASINGAN"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015511000",
+  "city": "BAYAMBANG"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015518000",
+  "city": "DAGUPAN CITY"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015526000",
+  "city": "MANGALDAN"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015531000",
+  "city": "ROSALES"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015538000",
+  "city": "SANTA BARBARA"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015540000",
+  "city": "SANTO TOMAS"
+ },
+ {
+  "region_id": "010000000",
+  "region": "REGION 1 (ILOCOS REGION)",
+  "province_id": "015500000",
+  "province": "PANGASINAN",
+  "city_id": "015546000",
+  "city": "URDANETA CITY"
+ },
+ {
+  "region_id": "020000000",
+  "region": "REGION 2 (CAGAYAN VALLEY)",
+  "province_id": "021500000",
+  "province": "CAGAYAN",
+  "city_id": "021512000",
+  "city": "ENRILE"
+ },
+ {
+  "region_id": "020000000",
+  "region": "REGION 2 (CAGAYAN VALLEY)",
+  "province_id": "025700000",
+  "province": "QUIRINO",
+  "city_id": "025702000",
+  "city": "CABARROGUIS (CAPITAL)"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030801000",
+  "city": "ABUCAY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030802000",
+  "city": "BAGAC"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030803000",
+  "city": "BALANGA CITY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030804000",
+  "city": "DINALUPIHAN"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030805000",
+  "city": "HERMOSA"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030806000",
+  "city": "LIMAY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030807000",
+  "city": "MARIVELES"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030809000",
+  "city": "ORANI"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030811000",
+  "city": "PILAR"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "030800000",
+  "province": "BATAAN",
+  "city_id": "030812000",
+  "city": "SAMAL"
+ },
+ {
   "region_id": "030000000",
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "031400000",
   "province": "BULACAN",
   "city_id": "031404000",
   "city": "BOCAUE"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
+  "city_id": "031407000",
+  "city": "CALUMPIT"
  },
  {
   "region_id": "030000000",
@@ -236,6 +444,22 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "031400000",
   "province": "BULACAN",
+  "city_id": "031408000",
+  "city": "GUIGUINTO"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
+  "city_id": "031411000",
+  "city": "MARILAO"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
   "city_id": "031413000",
   "city": "NORZAGARAY"
  },
@@ -252,8 +476,120 @@
   "region": "REGION 3 (CENTRAL LUZON)",
   "province_id": "031400000",
   "province": "BULACAN",
+  "city_id": "031417000",
+  "city": "PLARIDEL"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
+  "city_id": "031421000",
+  "city": "SAN MIGUEL"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
+  "city_id": "031422000",
+  "city": "SAN RAFAEL"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "031400000",
+  "province": "BULACAN",
   "city_id": "031423000",
   "city": "SANTA MARIA"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "034900000",
+  "province": "NUEVA ECIJA",
+  "city_id": "034903000",
+  "city": "CABANATUAN CITY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "034900000",
+  "province": "NUEVA ECIJA",
+  "city_id": "034907000",
+  "city": "GABALDON (BITULOK AND SABANI)"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "034900000",
+  "province": "NUEVA ECIJA",
+  "city_id": "034910000",
+  "city": "GENERAL TINIO (PAPAYA)"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "034900000",
+  "province": "NUEVA ECIJA",
+  "city_id": "034911000",
+  "city": "GUIMBA"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "034900000",
+  "province": "NUEVA ECIJA",
+  "city_id": "034926000",
+  "city": "SAN JOSE CITY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035403000",
+  "city": "ARAYAT"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035404000",
+  "city": "BACOLOR"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035416000",
+  "city": "CITY OF SAN FERNANDO (CAPITAL)"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035406000",
+  "city": "FLORIDABLANCA"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035408000",
+  "city": "LUBAO"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035409000",
+  "city": "MABALACAT CITY"
  },
  {
   "region_id": "030000000",
@@ -272,6 +608,94 @@
   "city": "PORAC"
  },
  {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "035400000",
+  "province": "PAMPANGA",
+  "city_id": "035418000",
+  "city": "SAN SIMON"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036902000",
+  "city": "BAMBAN"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036904000",
+  "city": "CAPAS"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036905000",
+  "city": "CONCEPCION"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036910000",
+  "city": "PANIQUI"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036915000",
+  "city": "SANTA IGNACIA"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "036900000",
+  "province": "TARLAC",
+  "city_id": "036916000",
+  "city": "TARLAC CITY"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "037100000",
+  "province": "ZAMBALES",
+  "city_id": "037104000",
+  "city": "CASTILLEJOS"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "037100000",
+  "province": "ZAMBALES",
+  "city_id": "037105000",
+  "city": "IBA (CAPITAL)"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "037100000",
+  "province": "ZAMBALES",
+  "city_id": "037109000",
+  "city": "SAN ANTONIO"
+ },
+ {
+  "region_id": "030000000",
+  "region": "REGION 3 (CENTRAL LUZON)",
+  "province_id": "037100000",
+  "province": "ZAMBALES",
+  "city_id": "037114000",
+  "city": "SUBIC"
+ },
+ {
   "region_id": "040000000",
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "041000000",
@@ -286,6 +710,14 @@
   "province": "BATANGAS",
   "city_id": "041006000",
   "city": "BAUAN"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "041000000",
+  "province": "BATANGAS",
+  "city_id": "041007000",
+  "city": "CALACA"
  },
  {
   "region_id": "040000000",
@@ -324,8 +756,24 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "041000000",
   "province": "BATANGAS",
+  "city_id": "041012000",
+  "city": "LEMERY"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "041000000",
+  "province": "BATANGAS",
   "city_id": "041013000",
   "city": "LIAN"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "041000000",
+  "province": "BATANGAS",
+  "city_id": "041017000",
+  "city": "MALVAR"
  },
  {
   "region_id": "040000000",
@@ -404,6 +852,14 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "042100000",
   "province": "CAVITE",
+  "city_id": "042106000",
+  "city": "CITY OF DASMARIÑAS"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "042100000",
+  "province": "CAVITE",
   "city_id": "042108000",
   "city": "CITY OF GENERAL TRIAS"
  },
@@ -462,6 +918,14 @@
   "province": "CAVITE",
   "city_id": "042116000",
   "city": "NOVELETA"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "042100000",
+  "province": "CAVITE",
+  "city_id": "042117000",
+  "city": "ROSARIO"
  },
  {
   "region_id": "040000000",
@@ -548,6 +1012,22 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "043400000",
   "province": "LAGUNA",
+  "city_id": "043411000",
+  "city": "LOS BAÑOS"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "043400000",
+  "province": "LAGUNA",
+  "city_id": "043422000",
+  "city": "PILA"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "043400000",
+  "province": "LAGUNA",
   "city_id": "043426000",
   "city": "SANTA CRUZ (CAPITAL)"
  },
@@ -588,6 +1068,14 @@
   "region": "REGION 4-A (CALABARZON)",
   "province_id": "045600000",
   "province": "QUEZON",
+  "city_id": "045645000",
+  "city": "SARIAYA"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "045600000",
+  "province": "QUEZON",
   "city_id": "045647000",
   "city": "TAYABAS CITY"
  },
@@ -598,6 +1086,14 @@
   "province": "RIZAL",
   "city_id": "045801000",
   "city": "ANGONO"
+ },
+ {
+  "region_id": "040000000",
+  "region": "REGION 4-A (CALABARZON)",
+  "province_id": "045800000",
+  "province": "RIZAL",
+  "city_id": "045803000",
+  "city": "BARAS"
  },
  {
   "region_id": "040000000",
@@ -724,6 +1220,14 @@
   "region": "REGION 5 (BICOL REGION)",
   "province_id": "051600000",
   "province": "CAMARINES NORTE",
+  "city_id": "051601000",
+  "city": "BASUD"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "051600000",
+  "province": "CAMARINES NORTE",
   "city_id": "051603000",
   "city": "DAET (CAPITAL)"
  },
@@ -748,6 +1252,14 @@
   "region": "REGION 5 (BICOL REGION)",
   "province_id": "051700000",
   "province": "CAMARINES SUR",
+  "city_id": "051716000",
+  "city": "IRIGA CITY"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "051700000",
+  "province": "CAMARINES SUR",
   "city_id": "051724000",
   "city": "NAGA CITY"
  },
@@ -758,6 +1270,14 @@
   "province": "CAMARINES SUR",
   "city_id": "051728000",
   "city": "PILI (CAPITAL)"
+ },
+ {
+  "region_id": "050000000",
+  "region": "REGION 5 (BICOL REGION)",
+  "province_id": "051700000",
+  "province": "CAMARINES SUR",
+  "city_id": "051732000",
+  "city": "SAN FERNANDO"
  },
  {
   "region_id": "050000000",
@@ -996,8 +1516,40 @@
   "region": "REGION 8 (EASTERN VISAYAS)",
   "province_id": "083700000",
   "province": "LEYTE",
+  "city_id": "083730000",
+  "city": "MACARTHUR"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "083700000",
+  "province": "LEYTE",
   "city_id": "083738000",
   "city": "ORMOC CITY"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "083700000",
+  "province": "LEYTE",
+  "city_id": "083747000",
+  "city": "TACLOBAN CITY"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "086000000",
+  "province": "SAMAR",
+  "city_id": "086005000",
+  "city": "CATBALOGAN CITY"
+ },
+ {
+  "region_id": "080000000",
+  "region": "REGION 8 (EASTERN VISAYAS)",
+  "province_id": "086000000",
+  "province": "SAMAR",
+  "city_id": "086022000",
+  "city": "PARANAS (WRIGHT)"
  },
  {
   "region_id": "090000000",
@@ -1046,6 +1598,14 @@
   "province": "LANAO DEL NORTE",
   "city_id": "103504000",
   "city": "ILIGAN CITY"
+ },
+ {
+  "region_id": "100000000",
+  "region": "REGION 10 (NORTHERN MINDANAO)",
+  "province_id": "103500000",
+  "province": "LANAO DEL NORTE",
+  "city_id": "103509000",
+  "city": "LALA"
  },
  {
   "region_id": "100000000",
@@ -1130,6 +1690,14 @@
  {
   "region_id": "120000000",
   "region": "REGION 12 (SOCCSKSARGEN)",
+  "province_id": "128000000",
+  "province": "SARANGANI",
+  "city_id": "128001000",
+  "city": "ALABEL (CAPITAL)"
+ },
+ {
+  "region_id": "120000000",
+  "region": "REGION 12 (SOCCSKSARGEN)",
   "province_id": "126300000",
   "province": "SOUTH COTABATO",
   "city_id": "126303000",
@@ -1182,5 +1750,13 @@
   "province": "AGUSAN DEL SUR",
   "city_id": "160308000",
   "city": "SAN FRANCISCO"
+ },
+ {
+  "region_id": "160000000",
+  "region": "REGION 13 (CARAGA)",
+  "province_id": "166800000",
+  "province": "SURIGAO DEL SUR",
+  "city_id": "166808000",
+  "city": "CORTES"
  }
 ]
